@@ -1,0 +1,160 @@
+/*1、 标题头部 样式*/
+p{
+	margin:0;
+}
+body{
+	width:1200px;
+	min-height:600px;
+	margin:0 auto;
+	background:#DEDEDE;
+}
+#BD_logo{
+	width:1200px;
+	height:50px;
+	background:#323334;
+}
+#BD_logo img{
+	width:120px;
+	margin:0 20px;
+}
+#BD_logo ul{
+	float:right;
+	
+}
+#BD_logo ul>li{
+	float:left;
+	width:50px;
+}
+#BD_logo ul>li a{
+	color:#fff;
+	font-size:12px;
+	text-decoration:none;
+}
+#BD_logo ul>li a:hover{
+	color:#ED4024;
+}
+/*2、 内容主体 */
+#main{
+	width:1200px;
+	margin:20px 0;
+}
+#main1,#main2,#main3,#main4,#main5{
+	width:1130px;
+	background:#fff;
+	margin:0 auto;
+	border:1px #B7B8B9 solid;
+	border-right:2px #818283 solid;
+	border-bottom:2px #818283 solid;
+	margin-bottom:20px;
+	font-size:14px;
+	padding:20px;
+}
+h4,h6{
+	color:#818283;
+	margin:5px 0;
+}
+h6{
+	font-weight:normal;
+}
+#main1 img,#main2 img{
+	width:200px;
+}
+/*2、 内容主体main2 */
+#main3 img{
+	width:100px;
+}
+#main2 ul{
+	list-style:none;
+}
+/*2、 内容主体main3 */
+#main3 img{
+	width:100px;
+}
+#main3 dl{
+	width:120px;
+	border:1px #ddd solid;
+	margin-left:40px;
+}
+#main3 dl dt{
+	margin-left:10px;
+}
+#main3 dl dd{
+	font-size:12px;
+	margin:8px 35px;
+}
+/*2、 内容主体main4 */
+#main4 table{
+	width:1130px;
+	font-size:12px;
+	border-collapse:collapse;
+}
+#main4 table td{
+	border:1px #CBCCCD solid;
+}
+#main4 table th{
+	text-align:left;
+	border:1px #CBCCCD solid;
+	color:#fff;
+	background:#000;
+}
+#main4 table td.gary{
+	background:#CBCCCD;
+}
+/*2、 内容主体main5*/
+#main h4{
+	color:#000;
+}
+#main #menu{
+	margin:20px 0 0 200px;
+	width:800px;
+	font-size:12px;
+}
+#main #menu p{
+	margin:10px 0;
+}
+#main #menu p span{
+	display:inline-block;
+	width:130px;
+	text-align:right;
+	margin-right:10px;
+}
+#main #menu p s{
+	color:#B6ADA7;
+	text-decoration:none;
+}
+/*想让“个人描述”在左上角，而不是自定义的左下角，用相对定位*/
+#main #menu span.textarea{
+	position:relative;
+	top:-65px;	
+}
+#main .subm input{
+	width:1130px;
+	height:35px;
+	background:#3858C9;
+	border:0;
+	border-radius:5px;
+	color:#fff;
+	font-size:14px;
+}
+/*2、 底部内容，版权 */
+#foot{
+	width:1200px;
+	height:60px;
+	line-height:60px;
+	background:#000;
+	font-size::;px;
+	color:#fff;
+	text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
