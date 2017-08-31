@@ -1,0 +1,76 @@
+*{
+  box-sizing: border-box;
+  list-style: none;
+}
+p{margin:0;}
+body{
+  padding:23px;
+  font-size: 0.9em;
+}
+.container{
+  min-height:200px;
+  padding:20px;
+  border:1px solid #999;
+  background:#eee;
+  position: relative;
+}
+/*左边部分*/
+.main-left{
+  float:left;
+  width:200px;
+  height:120px;
+  padding:20px;
+  border:1px solid #999;
+  background:#fff;
+}
+.logo{
+  width:80px;
+  height:80px;
+  float:left;
+  border:1px solid #999;
+  background:#eee;
+  text-align:center;
+  padding-top:20px;
+}
+.main-left span{
+  padding-left: 1em;
+}
+/*中间部分*/
+.main-middle{
+  float:left;
+  position:absolute;
+  top:20px;
+  left:220px;
+  right:140px;
+  margin:0 20px;
+  padding:20px;
+  border:1px solid #999;
+
+}
+
+/*右边部分*/
+.main-right{
+  float: right;
+  width:120px;
+  padding:20px;
+  border:1px solid #999;
+  background:#fff;
+}
+/*父元素中的最后一个子元素受浮动影响高度，给父元素设置*/
+.container:after{
+  content:"";
+  display: block;
+  clear: both;
+}
+.main-right p{
+  width:80px;
+  height:80px;
+  border:1px solid #999;
+  background:#eee;
+  text-align:center;
+  padding-top:20px;
+  margin-bottom: 20px;
+}
+.main-right p.noMargin{
+  margin-bottom: 0;
+}
