@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>小微学院任务四：定位和居中问题</title>
+  <style>
+    body{
+      width:100%;
+      height:100%;
+      margin:0;
+    }
+    .container{
+      width:400px;
+      height:200px;
+      background:#ccc;
+      /*margin:auto法，使元素水平垂直居中*/
+      margin:auto;
+      position:absolute;
+      top:0;
+      left:0;
+      bottom:0;
+      right:0;
+    }
+    .half_circle1{
+      width:0;
+      height:0;
+      border-radius:100px;
+      border:50px solid;
+      border-color:#fc0 transparent transparent transparent;
+      cursor:pointer;
+      transform:rotate(135deg);
+      position:relative;
+      top:-50px;
+      left:-50px;
+    }
+    .half_circle2{
+      width:0;
+      height:0;
+      border-radius:100px;
+      border:50px solid;
+      border-color: #fc0 transparent transparent transparent;
+      transform:rotate(-45deg);
+      position:relative;
+      bottom:-50px;
+      left:350px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="half_circle1"></div>
+    <div class="half_circle2"></div>
+  </div>
+</body>
+</html>
